@@ -24,5 +24,8 @@ router.route('/cars')
 router.route('/cars/:_id')
     .get(accountsCarsController.get);
 
+router.get("/dove",(req, res) => 
+    res.send("You are stupi")
+   )
 
 module.exports = router;

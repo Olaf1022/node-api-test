@@ -18,6 +18,10 @@ const getAll = function(){
     return data.Cars;
 }
 
+const getpart = function(first_id, second_id){
+    return 8;
+}
+
 module.exports = {
     get,
     getAll

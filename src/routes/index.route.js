@@ -29,4 +29,8 @@ router.get('/health', (req, res) => {
   res.send(JSON.stringify(healthcheck));
 });
 
+router.get("/dove",(req, res) => 
+ res.send("You are stupi")
+)
+
 module.exports = router;
