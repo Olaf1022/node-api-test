@@ -29,6 +29,10 @@ const getAll = function(req){
     return cars.filter(car => car_ids.includes(car._id));
 }
 
+const getpart = function(first_id, second_id){
+    return 8;
+}
+
 module.exports = {
     get,
     getAll
