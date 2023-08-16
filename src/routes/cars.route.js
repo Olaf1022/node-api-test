@@ -19,7 +19,4 @@ router.route('/')
 router.route('/:_id')
     .get(carsController.get);
 
-router.get("/dove",(req, res) => 
- res.send("You are stupi")
-)
 module.exports = router;
